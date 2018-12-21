@@ -7,7 +7,7 @@ add_definitions(-DSAMPGDK_AMALGAMATION)
 set(CMAKE_CXX_FLAGS_DEBUG "-DSHOEBILL_DEBUG")
 
 if (UNIX)
-    find_package(Iconv REQUIRED)
+        find_package(Iconv REQUIRED)	
 endif ()
 
 if (JNI_FOUND)
