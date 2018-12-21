@@ -1,5 +1,7 @@
 #pragma once
 #include <jni.h>
+#include <iconv.h>
+
 
 /**
  * Copyright (C) 2011 MK124

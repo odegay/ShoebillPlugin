@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\GIT\Shoebill\ShoebillPlugin\build\CMakeFiles\5d7529e56c867152fd91fe0707578ca7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{54B681BE-CE08-38A6-9438-9F2F5F723698}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
