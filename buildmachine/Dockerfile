@@ -33,7 +33,7 @@ WORKDIR /app/ShoebillPlugin
 # just in case we have to update the rep
 RUN git pull
 #RUN 
-RUN cat /usr/include/iconv.h
+#RUN cat /usr/include/iconv.h
 #running build
 RUN ./build.sh
 
