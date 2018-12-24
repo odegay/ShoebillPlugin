@@ -8,6 +8,6 @@ cd build
 echo "----- Generating CMake Makefiles -----"
 cmake .. -DCMAKE_BUILD_TYPE=Release
 echo "----- Producing ShoebillPlugin Release Executable -----"
-# make clean
-# make -j ${CORE_COUNT}
+make clean
+make -j ${CORE_COUNT}
 echo "+++++ Build finished +++++"
