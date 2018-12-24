@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GIT\Shoebill\ShoebillPlugin\src\shoebill\EncodingUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GIT\Shoebill\ShoebillPlugin\src\shoebill\JniUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GIT\Shoebill\ShoebillPlugin\src\shoebill\JniFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GIT\Shoebill\ShoebillPlugin\src\wrapper\Callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GIT\Shoebill\ShoebillPlugin\src\wrapper\PluginMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GIT\Shoebill\ShoebillPlugin\src\shoebill\Shoebill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GIT\Shoebill\ShoebillPlugin\src\sampgdk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GIT\Shoebill\ShoebillPlugin\src\shoebill\EncodingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GIT\Shoebill\ShoebillPlugin\src\shoebill\JniUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GIT\Shoebill\ShoebillPlugin\src\shoebill\JniFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GIT\Shoebill\ShoebillPlugin\src\wrapper\AmxHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GIT\Shoebill\ShoebillPlugin\src\wrapper\AmxInstanceManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GIT\Shoebill\ShoebillPlugin\src\wrapper\Callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GIT\Shoebill\ShoebillPlugin\src\shoebill\Shoebill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GIT\Shoebill\ShoebillPlugin\src\sampgdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GIT\Shoebill\ShoebillPlugin\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\GIT\Shoebill\ShoebillPlugin\src\wrapper\exports.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DD24BC68-59D9-3C76-ABB1-A221C107798E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80E645DD-CD1B-3E12-A686-9454B39DB120}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
