@@ -26,3 +26,12 @@ jstring mbs2wcs(JNIEnv *env, unsigned int codepage, const char *src, const int l
 int wcs2mbs(unsigned int codepage, const unsigned short *src, int srclen, char *dst, int dstlen);
 
 char *wcs2mbs(JNIEnv *env, unsigned int codepage, const jstring src, const int destLen);
+
+/* Requests for iconvctl. */
+#define ICONV_TRIVIALP            0  /* int *argument */
+#define ICONV_GET_TRANSLITERATE   1  /* int *argument */
+#define ICONV_SET_TRANSLITERATE   2  /* const int *argument */
+#define ICONV_GET_DISCARD_ILSEQ   3  /* int *argument */
+#define ICONV_SET_DISCARD_ILSEQ   4  /* const int *argument */
+#define ICONV_SET_HOOKS           5  /* const struct iconv_hooks *argument */
+#define ICONV_SET_FALLBACKS       6  /* const struct iconv_fallbacks *argument */

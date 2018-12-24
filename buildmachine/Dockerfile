@@ -20,12 +20,22 @@ RUN apt-get install -y build-essential
 RUN apt-get install -y cmake
 #install git
 RUN apt-get install -y git
+#update
+RUN apt-get update
+#Install libc6
+RUN apt-get install libc6-dev
 # Set the working directory to /app
 WORKDIR /app
 #CLONE LATEST ShoebillPLUGIN version
 RUN git clone https://github.com/odegay/ShoebillPlugin.git
 # Set the working directory to /ShoebillPLugin
 WORKDIR /app/ShoebillPlugin
+# just in case we have to update the rep
+RUN git pull
+#RUN 
+RUN cat /usr/include/iconv.h
 #running build
 RUN ./build.sh
+
+
 
