@@ -8,9 +8,9 @@ cd build
 echo "----- Generating CMake Makefiles -----"
 cmake .. -DCMAKE_BUILD_TYPE=Release
 echo "----- Producing ShoebillPlugin Release Executable -----"
-/c/msys64/mingw32/bin/mingw32-make.exe clean
-/c/msys64/mingw32/bin/mingw32-make.exe -j ${CORE_COUNT}
+#/c/msys64/mingw32/bin/mingw32-make.exe clean
+#/c/msys64/mingw32/bin/mingw32-make.exe -j ${CORE_COUNT}
 
-#make clean
-#make -j ${CORE_COUNT}
+make clean
+make -j ${CORE_COUNT}
 echo "+++++ Build finished +++++"
