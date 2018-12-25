@@ -45,10 +45,7 @@ RUN git clone https://github.com/odegay/ShoebillPlugin.git
 # Set the working directory to /ShoebillPLugin
 WORKDIR /app/ShoebillPlugin
 # just in case we have to update the rep
-RUN git pull
-#RUN 
-#RUN cat /usr/include/iconv.h
-#RUN cat /app/ShoebillPlugin/src/shoebill/EncodingUtils.h
+CMD  ["git pull"]
 #running build
 CMD  ["./build.sh"]
 #RUN ./build.sh
