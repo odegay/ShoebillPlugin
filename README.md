@@ -29,3 +29,8 @@ The shoebill plugin currently supports version 0.3.7 of SAMP
 Clone the project into a directory and then execute the build.sh script.
 After the build has successfully finished, you will find a Shoebill.so file in the src directory. Rename it to just "Shoebill" (without .so)
 and then you should be able to use it with the samp-server.
+
+
+http://35.206.126.225/artifactory/generic-local/
+
+curl -u downloader:QWErty123 -T Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
