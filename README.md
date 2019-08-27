@@ -33,4 +33,4 @@ and then you should be able to use it with the samp-server.
 
 http://35.206.126.225/artifactory/generic-local/
 
-curl -u downloader:QWErty123 -T Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
+curl -u T Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
