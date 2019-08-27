@@ -21,8 +21,8 @@ CMD  ["./build.sh"]
 #RUN ./build.sh
 ###DEBUG
 #RUN dir
-RUN dir ./build/src
-#RUN curl -u downloader:QWErty123 -T ./src/Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
+#RUN dir ./build/src
+RUN curl -u downloader:QWErty123 -T ./src/Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
 
 
 
