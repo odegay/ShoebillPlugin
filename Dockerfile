@@ -3,6 +3,7 @@
 FROM odegay/oxotaserver_cpp_buildmachine:latest
 
 #update
+RUN apt-get install curl -y
 RUN apt-get update && apt-get upgrade -y
 
 # Set the working directory to /app
