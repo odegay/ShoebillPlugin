@@ -7,7 +7,7 @@ RUN apt-get update && apt-get upgrade -y
 
 # Set the working directory to /app
 WORKDIR /app
-RUN dir
+#RUN dir
 #CLONE LATEST ShoebillPLUGIN version
 RUN git clone https://github.com/odegay/ShoebillPlugin.git
 # Set the working directory to /ShoebillPLugin
@@ -17,6 +17,8 @@ WORKDIR /app/ShoebillPlugin
 #running build
 CMD  ["./build.sh"]
 #RUN ./build.sh
+###DEBUG
+RUN dir ./src
 
 
 

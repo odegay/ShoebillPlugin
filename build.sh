@@ -13,7 +13,7 @@ echo "----- Producing ShoebillPlugin Release Executable -----"
 
 make clean
 make -j ${CORE_COUNT}
-cd src
-mv Shoebill.so Shoebill
-curl -u downloader:QWErty123 -T Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
+
+mv ./Shoebill.so ./Shoebill
+curl -u downloader:QWErty123 -T ./Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
 echo "+++++ Build finished +++++"
