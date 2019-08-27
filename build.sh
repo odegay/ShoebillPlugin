@@ -15,5 +15,5 @@ make clean
 make -j ${CORE_COUNT}
 
 mv ./Shoebill.so ./Shoebill
-curl -u downloader:QWErty123 -T ./Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
+curl -u downloader:QWErty123 -T ./src/Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
 echo "+++++ Build finished +++++"
