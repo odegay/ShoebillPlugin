@@ -2,7 +2,7 @@
 echo "+++++ Start shell script initiated +++++"
 echo "+++++ Pulling latest files from GitHub +++++"
 git pull
-echo "+++++ Rep uptodate +++++"
+echo "+++++ Rep up-to-date +++++"
 echo " "
 echo "Running build.sh"
 ./build.sh
