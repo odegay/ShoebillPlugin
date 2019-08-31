@@ -15,9 +15,13 @@ make clean
 make -j ${CORE_COUNT}
 echo "+++++ Build finished +++++"
 echo "**************committing part initiated***********"
+echo "**************CURRENT DIR***********"
 dir 
+echo "**************SRC DIR***********"
 cd src
 dir
 mv Shoebill.so Shoebill
+echo "**************SHOEBILL RENAMED***********"
+dir
 curl -u downloader:QWErty123 -T Shoebill "http://35.206.126.225/artifactory/generic-local/reguhoop/sampserver/"
 echo "************commit done************"
