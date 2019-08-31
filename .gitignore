@@ -8,3 +8,6 @@ bin/
 linuxBuild/
 cmake-build-debug/
 /.vscode
+.vs
+build/
+out/
