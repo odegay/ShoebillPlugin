@@ -272,8 +272,9 @@ cell AMX_NATIVE_CALL CallShoebillFunction(AMX *amx, cell *params)
         else if (types[i] == "i[]") {
             auto intArrayObject = static_cast<jintArray>(env->GetObjectArrayElement(objectArray, i));
             int arrayLength = env->GetArrayLength(intArrayObject);
-            if (arrayLength > params[p + 1])
-                sampgdk_logprintf("[SHOEBILL] %s has a bigger array than pawn. New values are ignored.", function);
+			if (arrayLength > params[p + 1]) {
+				sampgdk_logprintf("[SHOEBILL] %s has a bigger array than pawn. New values are ignored.", function);
+			}
 
 	        auto pawnArray = referenceValues[i];
 	        auto elements = env->GetIntArrayElements(intArrayObject, nullptr);
@@ -285,8 +286,9 @@ cell AMX_NATIVE_CALL CallShoebillFunction(AMX *amx, cell *params)
         } else if (types[i] == "f[]") {
             auto floatArrayObject = static_cast<jfloatArray>(env->GetObjectArrayElement(objectArray, i));
             int arrayLength = env->GetArrayLength(floatArrayObject);
-            if (arrayLength > params[p + 1])
-                sampgdk_logprintf("[SHOEBILL] %s has a bigger array than pawn. New values are ignored.", function);
+			if (arrayLength > params[p + 1]) {
+				sampgdk_logprintf("[SHOEBILL] %s has a bigger array than pawn. New values are ignored.", function);
+			}
 
 	        auto pawnArray = referenceValues[i];
 	        auto elements = env->GetFloatArrayElements(floatArrayObject, nullptr);
