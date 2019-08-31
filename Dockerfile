@@ -10,10 +10,10 @@ RUN apt-get update && apt-get upgrade -y
 WORKDIR /app
 RUN dir
 #CLONE LATEST ShoebillPLUGIN version
-RUN git clone https://github.com/odegay/ShoebillPlugin.git
+#RUN git clone https://github.com/odegay/ShoebillPlugin.git
 # Set the working directory to /ShoebillPLugin
-WORKDIR /app/ShoebillPlugin
-RUN dir
+#WORKDIR /app/ShoebillPlugin
+#RUN dir
 # just in case we have to update the rep
 #CMD  ["git pull"]
 #running build

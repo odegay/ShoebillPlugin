@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 CORE_COUNT=$(grep -c ^processor /proc/cpuinfo)
-
+git clone https://github.com/odegay/ShoebillPlugin.git
+cd ShoebillPlugin
 rm -r build
 mkdir build
 cd build
