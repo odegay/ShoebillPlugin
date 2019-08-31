@@ -18,4 +18,5 @@ WORKDIR /app/ShoebillPlugin
 #CMD  ["git pull"]
 #running build
 #RUN dir ./build/src
+RUN chmod +x build.sh && chmod +x start.sh
 CMD  ["./start.sh"]
