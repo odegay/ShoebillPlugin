@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
 CORE_COUNT=$(grep -c ^processor /proc/cpuinfo)
-git pull
-cat build.sh
 rm -r build
 mkdir build
 cd build
