@@ -18,4 +18,4 @@ WORKDIR /app/ShoebillPlugin
 #CMD  ["git pull"]
 #running build
 #RUN dir ./build/src
-CMD  ["./build.sh"]
+CMD  ["./start.sh"]
